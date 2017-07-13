@@ -1,0 +1,9 @@
+##YAML Template
+---
+#default: -p html_report -p chrome -p dev
+default: -p chrome -p dev
+html_report: --format pretty --format html --out=features_report.html
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome
+ie: BROWSER=internet_explorer
+dev: ENVIRONMENT_TYPE=dev
