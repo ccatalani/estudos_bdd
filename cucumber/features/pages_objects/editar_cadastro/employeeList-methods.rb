@@ -18,11 +18,11 @@ class EditarCadastro
     @editar_cadastro_data = EditEmployee.new
     @editar_cadastro_data.employeed_id_search.set($numero_id)
     @editar_cadastro_data.btn_search.click
-    @editar_cadastro_data.click_link($umero_id)
-    @editar_cadastro_data.click_link.btn_edit.click
-    find('#personal_txtEmployeeId').set ''
-    @editar_empregado_data.click_link.first_name_edit.set("Passed")
-    @editar_empregado_data.click_link.btn_save_edit.click
+    click_link($numero_id)
+    @editar_cadastro_data.btn_edit.click
+    find('#personal_txtEmpFirstName').set ''
+    @editar_cadastro_data.first_name_edit.set("Passed")
+    @editar_cadastro_data.btn_save_edit.click
   end
 
   # def pegar_id(numero_id)
