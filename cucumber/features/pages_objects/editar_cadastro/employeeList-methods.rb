@@ -24,10 +24,4 @@ class EditarCadastro
     @editar_cadastro_data.first_name_edit.set("Passed")
     @editar_cadastro_data.btn_save_edit.click
   end
-
-  # def pegar_id(numero_id)
-  #   @pegar_numero_id = AddEmployee.new
-  #   expect(page).to have_css("#personal_txtEmployeeId", :visible => true)
-  #   @pegar_numero_id.id_employee.value
-  # end
 end
